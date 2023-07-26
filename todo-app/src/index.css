@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Inter;
+  src: url(D:\Fonts\Inter\Inter-VariableFont_slnt,wght.ttf);
+}
+body {
+  margin: 0;
+  background-color: rgb(72, 70, 70);
+  font-family: Inter;
+}
+.head-container{
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head-container > h1{
+  text-align: center;
+  color: white;
+}
+.data-container{
+  background-color: rgb(101, 96, 96);
+  display: flex;
+  align-items: center;
+  border-radius:20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  gap:20px;
+}
+.add-button {
+  border: none;
+  outline: none;
+  width :120px;
+  font-size: 15px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: rgb(246, 157, 67);
+  color: white;
+  margin-left: auto;
+  cursor: pointer;
+}
+input{
+  width: 230px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: 2px solid rgb(246, 157, 67);
+  font-family: Inter;
+}
+.todo-container {
+  margin-top: 10px;
+  width:900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+}
+.todo-container::-webkit-scrollbar{
+  display: none;
+}
+.No-List {
+  text-align: center;
+  margin-top: 25%;
+  color: white;
+}
+.todo-list{
+  background-color: rgb(101, 96, 96);
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  border-radius: 20px;  
+}
+.name-des {
+  margin-right: auto;
+  margin-left: 20px;
+}
+button {
+  margin-right: 20px;
+  height: 40px;
+  font-size: 17px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.complete{
+  color: green;
+  border: 2px solid green;
+  cursor: pointer;
+}
+.delete{
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+}
+.todo-name {
+  color: rgb(244, 152, 32);
+  margin-bottom: 5px;
+}
+.todo-des {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #FFF;
+}
+img {
+  width:900px;
+  height: 495px;
+  border-radius: 20px;
+}
