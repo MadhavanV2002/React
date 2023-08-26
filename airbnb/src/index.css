@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+}
+.app{
+  max-width:700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 20px -15px black;
+}
+body{
+  background-color: #FFF;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+nav{
+  padding: 22px 0px 22px 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.header-image{
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap:10px;
+}
+.header-image > div{
+  display: flex;
+  flex-direction: column;
+}
+.first-col{
+  padding-top: 30px;
+}
+.second-col{
+  padding-top: 5px;
+  gap:10px;
+}
+.third-col{
+  padding-top: 20px;
+  gap:10px;
+}
+.fifth-col{
+  padding-top: 15px;
+  gap:10px;
+}
+.fourth-col{
+  gap:10px;
+}
+.content {
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top:20px;
+  font-size: 21px;
+}
+.content > p {
+  width:400px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.cards-container{
+  max-width:640px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.cards-container::-webkit-scrollbar{
+  display: none;
+}
+.card-info{
+  font-size: 13.6px;
+}
+.rating{
+  display: flex;
+  align-items: center;
+}
+.star{
+  margin-right: 5px;
+}
+.card{
+  position: relative;
+}
+.badge{
+  position: absolute;
+  background-color: #FFF;
+  font-size:14px;
+  padding:5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
